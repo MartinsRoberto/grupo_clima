@@ -1,0 +1,11 @@
+#gallery .btn-gallery{
+    background-color: #ffffff;
+    color: #015593;
+    transition: all 500ms;
+}
+
+#gallery .btn-gallery:hover{
+    cursor: pointer;
+    background-color: #015593;
+    color: white;
+}
