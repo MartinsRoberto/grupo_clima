@@ -2,69 +2,69 @@
 7dc22b */
 
 ul {
-    padding-left: 0px !important;
+  padding-left: 0px !important;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.text-color-blue{
-    color: #015593;
+.text-color-blue {
+  color: #015593;
 }
 
-.bg-color-blue{
-    background-color: #015593 !important;
+.bg-color-blue {
+  background-color: #015593 !important;
 }
 
 .text-color-green {
-    color: #7dc22b;
+  color: #7dc22b;
 }
 
-.bg-color-green{
-    background-color: #7dc22b !important;
+.bg-color-green {
+  background-color: #7dc22b !important;
 }
 
-.btn-primary{
-    background-color: #015593 !important;
-    border: #015593 !important;
+.btn-primary {
+  background-color: #015593 !important;
+  border: #015593 !important;
 }
 
-.btn-secondary{
-    background-color: #7dc22b !important;
-    border: #7dc22b !important;
+.btn-secondary {
+  background-color: #7dc22b !important;
+  border: #7dc22b !important;
 }
 
 section {
-    padding: 20px; /* Padrão para telas menores que 576px */
+  padding: 20px; /* Padrão para telas menores que 576px */
 }
 
 @media (min-width: 576px) {
-    section {
-        padding: 40px; /* Para telas >= 576px (sm) */
-    }
+  section {
+    padding: 40px; /* Para telas >= 576px (sm) */
+  }
 }
 
 @media (min-width: 768px) {
-    section {
-        padding: 50px; /* Para telas >= 768px (md) */
-    }
+  section {
+    padding: 50px; /* Para telas >= 768px (md) */
+  }
 }
 
 @media (min-width: 992px) {
-    section {
-        padding: 70px; /* Para telas >= 992px (lg) */
-    }
+  section {
+    padding: 70px; /* Para telas >= 992px (lg) */
+  }
 }
 
 @media (min-width: 1200px) {
-    section {
-        padding: 90px; /* Para telas >= 1200px (xl) */
-    }
+  section {
+    padding: 90px; /* Para telas >= 1200px (xl) */
+  }
 }
 
 @media (min-width: 1400px) {
-    section {
-        padding: 90px; /* Para telas >= 1400px (xxl) */
-    }
+  section {
+    padding: 90px; /* Para telas >= 1400px (xxl) */
+  }
 }

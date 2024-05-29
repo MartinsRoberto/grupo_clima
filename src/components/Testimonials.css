@@ -1,9 +1,8 @@
-
-#testimonials .react-multi-carousel-dot button{
-    border-color: #015593;
-    background-color: transparent;
+#testimonials .react-multi-carousel-dot button {
+  border-color: #015593;
+  background-color: transparent;
 }
 
-#testimonials .react-multi-carousel-dot--active button{
-    background-color: #015593;
+#testimonials .react-multi-carousel-dot--active button {
+  background-color: #015593;
 }
