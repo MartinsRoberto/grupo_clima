@@ -1,0 +1,15 @@
+
+#footer{
+  background-color: #015593;
+}
+
+
+#footer .midia{
+  cursor: pointer;
+}
+
+#footer .link:hover,
+#footer .midia:hover{
+  color: #7dc22b !important;
+  font-weight: bold !important;
+}

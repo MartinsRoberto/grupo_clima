@@ -11,9 +11,35 @@
 }
 
 #gallery .des {
-  max-height: 270px;
+  height: 180px;
 }
 
-#gallery img {
-  max-width: 100%;
+@media (min-width: 576px) {
+  #gallery .des {
+    height: 262px;
+  }
+}
+
+@media (min-width: 768px) {
+  #gallery .des {
+    height: 232px;
+  }
+}
+
+@media (min-width: 992px) {
+  #gallery .des {
+    height: 312px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #gallery .des {
+    height: 372px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #gallery .des {
+    height: 432px;
+  }
 }

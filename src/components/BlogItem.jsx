@@ -2,9 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const BlogItem = ({ id, title, text, display }) => {
-  
   const routeState = {
-    id: 1,
+    id: id,
   };
 
   return (
@@ -16,10 +15,10 @@ const BlogItem = ({ id, title, text, display }) => {
           alt="..."
         />
         <div className="card-body">
-          <h5 className="card-title">{title}</h5>
+          <h6 className="card-title">{title}</h6>
           <p className="card-text">{text}</p>
-          <Link className="btn btn-secondary" to="blog" state={routeState}>
-            Go somewhere
+          <Link className="btn btn-primary" to="blog" state={routeState}>
+            Leia mais
           </Link>
         </div>
       </div>

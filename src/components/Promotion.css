@@ -1,5 +1,7 @@
 #promotion {
-  background-color: #015593;
+  background-image: url("../assets/Snow3.svg");
+  background-size: cover;
+  background-position: center;
 }
 
 #promotion .promo {

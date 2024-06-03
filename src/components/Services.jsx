@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css";
+import ServiceItem from "./ServiceItem";
 
 const Services = () => {
   return (
@@ -8,7 +9,7 @@ const Services = () => {
         <div className="row">
           <div className="col-md-2"></div>
           <div className="col-md-8">
-            <h2 className="text-center text-color-blue">
+            <h2 className="text-center text-color-blue ">
               Serviços disponíveis
             </h2>
             <h5 className="text-center mb-5 fw-light">
@@ -21,54 +22,27 @@ const Services = () => {
           <div className="col-md-2"></div>
         </div>
         <div className="row">
-          <div className="col-md-4">
-            <div className="service-item shadow p-4 rounded d-flex justify-content-center align-items-center flex-column mb-5">
-              <img
-                src="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
-                alt=""
-                className="mb-3 img-fluid"
-                width="50"
-              />
-              <h5 className="mb-3 text-color-blue">Instalação</h5>
-              <p className="text-center text-secondary">
-                New AC construction or replacement, ensuring proper techniques
-                and building code compliance.
-              </p>
-              <button className="btn btn-primary">Veja mais</button>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="service-item shadow p-4 rounded d-flex justify-content-center align-items-center flex-column mb-5">
-              <img
-                src="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
-                alt=""
-                className="mb-3 img-fluid"
-                width="50"
-              />
-              <h5 className="mb-3 text-color-blue">Manutenção</h5>
-              <p className="text-center text-secondary">
-                New AC construction or replacement, ensuring proper techniques
-                and building code compliance.
-              </p>
-              <button className="btn btn-primary">Veja mais</button>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="service-item shadow p-4 rounded d-flex justify-content-center align-items-center flex-column mb-5">
-              <img
-                src="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
-                alt=""
-                className="mb-3 img-fluid"
-                width="50"
-              />
-              <h5 className="mb-3 text-color-blue">Reparo</h5>
-              <p className="text-center text-secondary">
-                New AC construction or replacement, ensuring proper techniques
-                and building code compliance.
-              </p>
-              <button className="btn btn-primary">Veja mais</button>
-            </div>
-          </div>
+          <ServiceItem
+            imgSrc="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
+            title="Instalação"
+            description="New AC construction or replacement, ensuring proper techniques and building code compliance."
+            link="/services/install"
+            linkState={{ type: 1 }}
+          />
+          <ServiceItem
+            imgSrc="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
+            title="Manutenção corretiva e preventiva"
+            description="New AC construction or replacement, ensuring proper techniques and building code compliance."
+            link="/services/maintance"
+            linkState={{ type: 2 }}
+          />
+          <ServiceItem
+            imgSrc="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
+            title="Limpeza"
+            description="New AC construction or replacement, ensuring proper techniques and building code compliance."
+            link="/services/cleaning"
+            linkState={{ type: 3 }}
+          />
         </div>
       </div>
     </section>

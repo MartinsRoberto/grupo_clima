@@ -1,21 +1,46 @@
 import React from "react";
-
 import { FaCheck } from "react-icons/fa6";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import "./About.css";
 
 const About = () => {
+  const [refText, inViewText] = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+  const [refImage, inViewImage] = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
   return (
-    <section id="about">
+    <section id="about" className="text-white">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 d-flex align-items-center">
+          <motion.div
+            ref={refImage}
+            initial={{ opacity: 0, x: -100 }}
+            animate={inViewImage ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.5 }}
+            className="col-lg-6 d-flex align-items-center order-2 order-lg-1"
+          >
             <img
-              className="img-fluid mb-5 mb-lg-0 rounded"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Blue_Wildebeest%2C_Ngorongoro.jpg/1200px-Blue_Wildebeest%2C_Ngorongoro.jpg"
+              className="img-fluid mb-2 mb-md-3 mb-lg-0 rounded"
+              src="https://fakeimg.pl/800x500"
               alt=""
             />
-          </div>
-          <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start ">
-            <h2 className="text-center text-lg-start text-color-blue">About</h2>
+          </motion.div>
+          <motion.div
+            ref={refText}
+            initial={{ opacity: 0, x: 100 }}
+            animate={inViewText ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.5 }}
+            className="col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start order-1 order-lg-2"
+          >
+            <h2 className="text-center text-lg-start text-color-green">
+              About
+            </h2>
             <h5 className="text-center text-lg-start mb-5 fw-light">
               About About About About About About
             </h5>
@@ -45,7 +70,7 @@ const About = () => {
                 Motivo A
               </li>
             </ul>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

@@ -1,0 +1,26 @@
+#team .carousel-item {
+  background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p2/26717941-do-hipopotamo-em-savana-as-por-do-sol-generativo-ai-foto.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 400px;
+}
+
+#team .carousel-item.a{
+  background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p2/26717941-do-hipopotamo-em-savana-as-por-do-sol-generativo-ai-foto.jpg");
+}
+#team .carousel-item.b{
+  background-image: url("https://noticiaspet.com.br/wp-content/uploads/2024/05/arara-.webp");
+}
+#team .carousel-item.c{
+  background-image: url("https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/01-hyenas-nationalgeographic_1742911.jpg?w=1600&h=900");
+}
+#team .carousel-item .overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+#team .react-multi-carousel-dot {
+  margin-bottom: 20px;
+}

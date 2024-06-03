@@ -10,7 +10,7 @@ import Hero from "../components/Hero";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Hero />
       <Services />
       <About />
@@ -19,7 +19,7 @@ const Home = () => {
       <Testimonials />
       <Promotion />
       <Blog />
-    </div>
+    </>
   );
 };
 

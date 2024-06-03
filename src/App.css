@@ -1,5 +1,6 @@
-/* 015593
-7dc22b */
+html {
+  scroll-behavior: auto !important;
+}
 
 ul {
   padding-left: 0px !important;
@@ -36,35 +37,73 @@ li {
 }
 
 section {
-  padding: 20px; /* Padrão para telas menores que 576px */
+  padding: 30px 0px; /* Padrão para telas menores que 576px */
 }
 
 @media (min-width: 576px) {
   section {
-    padding: 40px; /* Para telas >= 576px (sm) */
+    padding: 40px 0px; /* Para telas >= 576px (sm) */
   }
 }
 
 @media (min-width: 768px) {
   section {
-    padding: 50px; /* Para telas >= 768px (md) */
+    padding: 50px 0px; /* Para telas >= 768px (md) */
   }
 }
 
 @media (min-width: 992px) {
   section {
-    padding: 70px; /* Para telas >= 992px (lg) */
+    padding: 70px 0px; /* Para telas >= 992px (lg) */
   }
 }
 
 @media (min-width: 1200px) {
   section {
-    padding: 90px; /* Para telas >= 1200px (xl) */
+    padding: 90px 0px; /* Para telas >= 1200px (xl) */
   }
 }
 
 @media (min-width: 1400px) {
   section {
-    padding: 90px; /* Para telas >= 1400px (xxl) */
+    padding: 90px 0px; /* Para telas >= 1400px (xxl) */
   }
+}
+
+.btn-top{
+  width: 42px;
+  height: 42px;
+  position: fixed;
+  color: #7dc22b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  cursor: pointer;
+  z-index: 100;
+  border-radius: 100%;
+  background-color: black;
+  right: 20px;
+  bottom: 20px;
+}
+
+.btn-top-bg{
+  width: 40px;
+  height: 40px;
+  background-color: #015593;
+  z-index: 10;
+  position: absolute;
+  border-radius: 100%;
+}
+
+.btn-top-arrow{
+  position: absolute;
+  z-index: 100;
+}
+
+.bg-wave{
+  background-image: url("./assets/Wave3.svg");
+  background-size: cover;
+  background-position: center;
+  height: 130px;
 }

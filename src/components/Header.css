@@ -11,3 +11,7 @@
 #header .nav-link:hover{
   border-bottom: 2px solid #015593 !important;
 }
+
+#header .btn-primary{
+  border-radius: 0px !important;
+}

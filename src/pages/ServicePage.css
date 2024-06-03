@@ -1,0 +1,13 @@
+#service-page .img{
+  height: 80vh;
+  background-image: url('https://www.infoescola.com/wp-content/uploads/2019/07/suricate-1418653667.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat  ;
+}
+
+#service-page .container .rounded{ 
+  background-image: url("../assets/bgServices.svg");
+  background-size: cover;
+  background-position: center;
+}
