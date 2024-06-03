@@ -10,7 +10,7 @@ const Testimonials = () => {
   return (
     <motion.section
       id="testimonials"
-      initial={{ opacity: 0, y: 50 }}
+      initial={{ opacity: 0, y: 250 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >

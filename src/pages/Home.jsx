@@ -18,7 +18,7 @@ const Home = () => {
       <IsotopeGrid />
       <Testimonials />
       <Promotion />
-      <Blog />
+      <Blog /> 
     </>
   );
 };

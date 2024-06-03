@@ -20,8 +20,8 @@ const About = () => {
         <div className="row">
           <motion.div
             ref={refImage}
-            initial={{ opacity: 0, x: -100 }}
-            animate={inViewImage ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: 100 }}
+            animate={inViewImage ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5 }}
             className="col-lg-6 d-flex align-items-center order-2 order-lg-1"
           >
@@ -33,8 +33,8 @@ const About = () => {
           </motion.div>
           <motion.div
             ref={refText}
-            initial={{ opacity: 0, x: 100 }}
-            animate={inViewText ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: 100 }}
+            animate={inViewText ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5 }}
             className="col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start order-1 order-lg-2"
           >

@@ -28,10 +28,10 @@ function App() {
     <>
       <Header />
       <div style={{ marginTop: "58px" }}></div>
-      <div className="btn-top" onClick={handleTop}>
+      {/* <div className="btn-top" onClick={handleTop}>
         <div className="btn-top-bg"></div>
         <FaArrowCircleUp className="btn-top-arrow"/>
-      </div>
+      </div> */}
       <Outlet />
       <div className="bg-wave"></div>
       <Footer />
