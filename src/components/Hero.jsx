@@ -61,7 +61,7 @@ const Hero = () => {
         slidesToSlide={1}
         swipeable
       >
-        <div className="carousel-item w-100 bg-danger d-flex flex-column align-items-start justify-content-center">
+        <div className="carousel-item a w-100 bg-danger d-flex flex-column align-items-start justify-content-center">
           <div className="z-0 position-absolute overlay"></div>
           <div className="position-absolute z-3 w-100">
             <div className="container">
@@ -74,7 +74,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="carousel-item w-100 bg-danger d-flex flex-column align-items-start justify-content-center">
+        <div className="carousel-item b w-100 bg-danger d-flex flex-column align-items-start justify-content-center">
           <div className="z-0 position-absolute overlay"></div>
           <div className="position-absolute z-3 w-100">
             <div className="container">
@@ -87,7 +87,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="carousel-item w-100 bg-danger d-flex flex-column align-items-start justify-content-center">
+        <div className="carousel-item c w-100 bg-danger d-flex flex-column align-items-start justify-content-center">
           <div className="z-0 position-absolute overlay"></div>
           <div className="position-absolute z-3 w-100">
             <div className="container">

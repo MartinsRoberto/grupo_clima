@@ -1,16 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img1 from "../assets/blogImg/01.jpeg";
+import img2 from "../assets/blogImg/02.jpg";
+import img3 from "../assets/blogImg/03.jpeg";
 
-const BlogItem = ({ id, title, text, display }) => {
+  const imageMap = {
+  1: img1,
+  2: img2,
+  3: img3
+  // Adicione outros mapeamentos conforme necessário
+  };
+  const BlogItem = ({ id, title, text, display }) => {
   const routeState = {
     id: id,
+    imgBlog: imageMap[id],
   };
 
   return (
     <div className={`col-md-6 col-lg-4 mb-4 ${display}`}>
       <div className="card">
         <img
-          src="https://s2.glbimg.com/11JPZhUpMXTXk0Tj7T9tjlIm6kA=/620x400/e.glbimg.com/og/ed/f/original/2016/02/15/buffalo_horison.jpg"
+          src={imageMap[id]}
           className="card-img-top"
           alt="..."
         />
