@@ -1,17 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
 import Isotope from "isotope-layout";
 import "./Gallery.css";
-import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import limpUm from "../assets/Galery/limpUm.jpg"
-import limpDois from "../assets/Galery/limpDois.jpg"
-import limpTres from "../assets/Galery/limpTres.jpg"
-import limpQuatro from "../assets/Galery/limpQuatro.jpg"
-import projUm from "../assets/Galery/ProjUm.jpg"
-import projDois from "../assets/Galery/ProjDois.jpg"
-import projTres from "../assets/Galery/ProjTres.jpg"
-import projQuatro from "../assets/Galery/ProjQuatro.jpg"
-import projCinco from "../assets/Galery/ProjCinco.jpg"
+import limpUm from "../assets/Galery/limpUm.jpg";
+import limpDois from "../assets/Galery/limpDois.jpg";
+import limpTres from "../assets/Galery/limpTres.jpg";
+import limpQuatro from "../assets/Galery/limpQuatro.jpg";
+import projUm from "../assets/Galery/ProjUm.jpg";
+import projDois from "../assets/Galery/ProjDois.jpg";
+import projTres from "../assets/Galery/ProjTres.jpg";
+import projQuatro from "../assets/Galery/ProjQuatro.jpg";
+import projCinco from "../assets/Galery/ProjCinco.jpg";
 
 const IsotopeGrid = () => {
   const gridRef = useRef(null);
@@ -44,160 +43,75 @@ const IsotopeGrid = () => {
     <section id="gallery" className="bg-light" ref={ref}>
       <div className="container">
         <div className="row">
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5 }}
-            className="col-md-12 text-center"
-          >
+          <div className="col-md-12 text-center">
             <h2 className="text-color-blue">Explore nossa Galeria</h2>
             <h5 className="mb-5 fw-light">
-            Descubra a excelência em cada detalhe dos nossos projetos de Limpeza, Manutenção e Instalação.
+              Descubra a excelência em cada detalhe dos nossos projetos de
+              Limpeza, Manutenção e Instalação.
             </h5>
-          </motion.div>
+          </div>
         </div>
         <div className="d-flex justify-content-center flex-wrap gap-3 mb-5">
-          <motion.span
-            initial={{ opacity: 0, y: 100 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.2 }}
+          <span
             className="shadow-sm rounded-pill px-3 py-2 btn-gallery"
             onClick={handleFilterKeyChange("*")}
           >
             Mostrar Tudo
-          </motion.span>
-          <motion.span
-            initial={{ opacity: 0, y: 100 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.4 }}
+          </span>
+          <span
             className="shadow-sm rounded-pill px-3 py-2 btn-gallery"
             onClick={handleFilterKeyChange(".category-a")}
           >
             Limpeza
-          </motion.span>
-          <motion.span
-            initial={{ opacity: 0, y: 100 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.6 }}
+          </span>
+          <span
             className="shadow-sm rounded-pill px-3 py-2 btn-gallery"
             onClick={handleFilterKeyChange(".category-b")}
           >
             Projetos
-          </motion.span>
+          </span>
         </div>
         <div className="row" ref={gridRef}>
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.8 }}
-            className="col-6 col-md-4 grid-item category-a p-1"
-          >
+          <div className="col-6 col-md-4 grid-item category-a p-1">
             <div className="overflow-hidden rounded des">
-              <img
-                className="img-fluid"
-                src={limpUm}
-                alt="Rhinoceros"
-              />
+              <img className="img-fluid" src={limpUm} alt="Limp Um" />
             </div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.8 }}
-            className="col-6 col-md-4 grid-item category-b p-1"
-          >
+          </div>
+          <div className="col-6 col-md-4 grid-item category-b p-1">
             <div className="overflow-hidden rounded des">
-              <img
-                className="img-fluid"
-                src={limpDois}
-                alt="Elephant"
-              />
+              <img className="img-fluid" src={limpDois} alt="Limp Dois" />
             </div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.8 }}
-            className="col-6 col-md-4 grid-item category-a p-1"
-          >
+          </div>
+          <div className="col-6 col-md-4 grid-item category-a p-1">
             <div className="overflow-hidden rounded des">
-              <img
-                className="img-fluid"
-                src={limpTres}
-                alt="Rhinoceros"
-              />
+              <img className="img-fluid" src={limpTres} alt="Limp Tres" />
             </div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.8 }}
-            className="col-6 col-md-4 grid-item category-b p-1"
-          >
+          </div>
+          <div className="col-6 col-md-4 grid-item category-b p-1">
             <div className="overflow-hidden rounded des">
-              <img
-                className="img-fluid"
-                src={limpQuatro}
-                alt="Rhinoceros"
-              />
+              <img className="img-fluid" src={limpQuatro} alt="Limp Quatro" />
             </div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.8 }}
-            className="col-6 col-md-4 grid-item category-a p-1"
-          >
+          </div>
+          <div className="col-6 col-md-4 grid-item category-a p-1">
             <div className="overflow-hidden rounded des">
-              <img
-                className="img-fluid"
-                src={projUm}
-                alt="Rhinoceros"
-              />
+              <img className="img-fluid" src={projUm} alt="Proj Um" />
             </div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.8 }}
-            className="col-6 col-md-4 grid-item category-b p-1"
-          >
+          </div>
+          <div className="col-6 col-md-4 grid-item category-b p-1">
             <div className="overflow-hidden rounded des">
-              <img
-                className="img-fluid"
-                src={projDois}
-                alt="Rhinoceros"
-              />
+              <img className="img-fluid" src={projDois} alt="Proj Dois" />
             </div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.8 }}
-            className="col-6 col-md-4 grid-item category-a p-1"
-          >
+          </div>
+          <div className="col-6 col-md-4 grid-item category-a p-1">
             <div className="overflow-hidden rounded des">
-              <img
-                className="img-fluid"
-                src={projTres}
-                alt="Rhinoceros"
-              />
+              <img className="img-fluid" src={projTres} alt="Proj Tres" />
             </div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.8 }}
-            className="col-6 col-md-4 grid-item category-b p-1"
-          >
+          </div>
+          <div className="col-6 col-md-4 grid-item category-b p-1">
             <div className="overflow-hidden rounded des">
-              <img
-                className="img-fluid"
-                src={projQuatro}
-                alt="Rhinoceros"
-              />
+              <img className="img-fluid" src={projQuatro} alt="Proj Quatro" />
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

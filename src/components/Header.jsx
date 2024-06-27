@@ -12,7 +12,6 @@ const Header = () => {
     navigate("/", { replace: false }); // Navegar para a rota raiz
   
     // Rolar instantaneamente para o topo
-    window.scrollTo(0, 0);
   
     // Rolar suavemente para o elemento alvo após um pequeno atraso
     setTimeout(() => {
@@ -84,7 +83,7 @@ const Header = () => {
               >
                 Blog
               </NavLink>
-              <button className="btn btn-primary">Fale conosco</button>
+              <a href="https://web.whatsapp.com/send?phone=551194910-9358" className="btn btn-primary fw-bold">Fale conosco</a>
             </div>
           </div>
         </div>

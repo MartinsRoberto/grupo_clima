@@ -1,16 +1,29 @@
 import React from "react";
-import "./Services.css";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
 import ServiceItem from "./ServiceItem";
 
-
+import "./Services.css";
 
 const Services = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
   return (
     <section id="services">
       <div className="container">
         <div className="row">
           <div className="col-md-2"></div>
-          <div className="col-md-8">
+          <motion.div
+            ref={ref}
+            initial={{ opacity: 0, y: 300 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5 }}
+            className="col-md-8"
+          >
             <h2 className="text-center text-color-blue ">
               Soluções completas para seu sistema de ar condicionado: Limpeza,
               Manutenção e PMOC
@@ -25,7 +38,7 @@ const Services = () => {
               contínua. Confie na nossa experiência e deixe-nos cuidar do seu
               conforto com soluções abrangentes e eficazes.
             </h5>
-          </div>
+          </motion.div>
           <div className="col-md-2"></div>
         </div>
         <div className="row">
@@ -50,7 +63,6 @@ const Services = () => {
             link="/services/pmoc"
             linkState={{ type: 3 }}
           />
-
         </div>
       </div>
     </section>

@@ -1,3 +1,10 @@
+#team {
+  background-image: url('../assets/waveblue.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 #team .carousel-item {
   background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p2/26717941-do-hipopotamo-em-savana-as-por-do-sol-generativo-ai-foto.jpg");
   background-position: center;

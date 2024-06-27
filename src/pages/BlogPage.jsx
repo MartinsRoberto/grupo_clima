@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import posts from "../assets/posts.json";
-import Blog from "../components/Blog";
 import { FaArrowLeft } from "react-icons/fa";
 
 import "./BlogPage.css";
@@ -39,40 +38,20 @@ const BlogPage = () => {
           </NavLink>
         </div>
         <div className="row">
-          <div className="col-md-8 col-lg-9 ">
-            <img className="img-fluid mb-4 " src={imgState} alt="" />
-            <h1 className="mb-4">
-              {post.id} {post.title}{" "}
+          <div className="col-12">
+            <img
+              className="img-fluid mb-4"
+              src={imgState}
+              alt=""
+              style={{ height: "60vh", objectFit: "cover", width: "100%" }}
+            />
+            <h1 className="mb-4 text-color-blue">
+              {post.title}{" "}
             </h1>
             <div
               className="content-single-blog"
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
-          </div>
-          <div className="col-md-4 col-lg-3">
-            <div className="row">
-              <div className="col-4 p-0 col-md-12 mb-md-1">
-                <img
-                  src="https://fakeimg.pl/400x400"
-                  alt=""
-                  className="img-fluid"
-                />
-              </div>
-              <div className="col-4 p-0 col-md-12 mb-md-1">
-                <img
-                  src="https://fakeimg.pl/400x400"
-                  alt=""
-                  className="img-fluid"
-                />
-              </div>
-              <div className="col-4 p-0 col-md-12 mb-md-1">
-                <img
-                  src="https://fakeimg.pl/400x400"
-                  alt=""
-                  className="img-fluid"
-                />
-              </div>
-            </div>
           </div>
         </div>
         <div className="row mt-5">
