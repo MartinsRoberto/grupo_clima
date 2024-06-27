@@ -1,31 +1,45 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Header.css";
 import { NavLink, useNavigate } from "react-router-dom";
 import HeaderInfo from "./HeaderInfo";
 
 const Header = () => {
   const navigate = useNavigate();
+  const navRef = useRef(null);
 
   const handleNavLinkClick = (e, targetId) => {
     e.preventDefault();
     navigate("/", { replace: false }); // Navegar para a rota raiz
-
+  
     // Rolar instantaneamente para o topo
     window.scrollTo(0, 0);
-
+  
     // Rolar suavemente para o elemento alvo após um pequeno atraso
     setTimeout(() => {
       const targetElement = document.querySelector(targetId);
       if (targetElement) {
-        targetElement.scrollIntoView({ behavior: "smooth" });
+        const offset = 88; // Ajuste este valor conforme necessário
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+  
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
       }
     }, 100);
+  
+    // Fechar o menu no modo mobile
+    const navBar = navRef.current;
+    if (navBar && navBar.classList.contains("show")) {
+      navBar.classList.remove("show");
+    }
   };
 
   return (
     <header id="header">
       <HeaderInfo />
-      <nav className="navbar fixed-top navbar-expand-lg bg-light shadow py-3" style={{marginTop: "32px"}}>
+      <nav className="navbar fixed-top navbar-expand-lg bg-light shadow py-2" style={{ marginTop: "32px"}}>
         <div className="container">
           <NavLink
             className="navbar-brand"
@@ -44,7 +58,7 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup" ref={navRef}>
             <div className="navbar-nav ms-auto">
               <NavLink
                 className="nav-link me-0 me-md-5 fw-semibold"

@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { PiNumberCircleThreeFill } from "react-icons/pi";
 
 import "./ServicePage.css";
 
 const ServicePageMaintance = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div id="service-page">
       <div className="img"></div>

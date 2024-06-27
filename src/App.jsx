@@ -17,21 +17,10 @@ function App() {
     AOS.init();
   }, []);
 
-  const handleTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
   return (
     <>
       <Header />
       <div style={{ marginTop: "58px" }}></div>
-      {/* <div className="btn-top" onClick={handleTop}>
-        <div className="btn-top-bg"></div>
-        <FaArrowCircleUp className="btn-top-arrow"/>
-      </div> */}
       <Outlet />
       <div className="bg-wave"></div>
       <Footer />
