@@ -10,7 +10,7 @@ const ServicePageCleaning = () => {
   }, []);
 
   return (
-    <div id="service-page">
+    <div className="cleaning" id="service-page">
       <div className="img"></div>
       <div className="container">
         <h2 className="my-4 text-color-blue">Limpeza de ar-condicionado</h2>

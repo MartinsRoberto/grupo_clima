@@ -1,5 +1,5 @@
 #hero .carousel-item {
-  background-image: url("../assets/heroImg/banner1.png");
+  background-image: url("../assets/Hero/carrouselUmVert.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -7,12 +7,12 @@
 }
 
 #hero .carousel-item.b{
-  background-image: url("../assets/heroImg/banner1.png");
+  background-image: url("../assets/Hero/carrouselDoisVert.png");
   
 }
 
 #hero .carousel-item.c {
-  background-image: url("../assets/heroImg/banner1.png");
+  background-image: url("../assets/Hero/carrouselTresVert.png");
 }
 
 #hero .carousel-item .overlay {
@@ -24,3 +24,20 @@
 #hero .react-multi-carousel-dot {
   margin-bottom: 20px;
 }
+
+@media (min-width:992px) {
+  #hero .carousel-item{
+    background-image: url("../assets/Hero/carrouselUmHor.png");
+    
+  }
+  #hero .carousel-item.b{
+    background-image: url("../assets/Hero/carrouselDoisHor.png");
+    
+  }
+  #hero .carousel-item.c{
+    background-image: url("../assets/Hero/carrouselTresHor.png");
+    
+  }
+  
+}
+

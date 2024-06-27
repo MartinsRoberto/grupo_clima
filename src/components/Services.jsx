@@ -2,6 +2,8 @@ import React from "react";
 import "./Services.css";
 import ServiceItem from "./ServiceItem";
 
+
+
 const Services = () => {
   return (
     <section id="services">
@@ -28,26 +30,27 @@ const Services = () => {
         </div>
         <div className="row">
           <ServiceItem
-            imgSrc="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
-            title="Instalação"
-            description="Instalação de novos sistemas de ar condicionado ou substituição, assegurando técnicas adequadas e conformidade com os códigos de construção."
-            link="/services/install"
+            imgSrc="https://cdn-icons-png.flaticon.com/512/2344/2344483.png"
+            title="Manutenção"
+            description="Manutenção de ar condicionado, assegurando técnicas adequadas, eficiência operacional, desempenho ideal, longevidade dos equipamentos e conformidade com os códigos de construção."
+            link="/services/maintance"
             linkState={{ type: 1 }}
-          />
-          <ServiceItem
-            imgSrc="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
-            title="PMOC (Plano de Manutenção Operação e Controle)"
-            description="Implementação e execução de PMOC conforme normas regulatórias para garantir a qualidade do ar e o desempenho eficiente do sistema de climatização, incluindo inspeções regulares e relatórios detalhados."
-            link="/services/cleaning"
-            linkState={{ type: 3 }}
           />
           <ServiceItem
             imgSrc="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
             title="Limpeza"
             description="Serviço profissional de limpeza de ar condicionado para melhorar a qualidade do ar interno, removendo poeira, ácaros e contaminantes, proporcionando um ambiente mais saudável."
-            link="/services/maintance"
+            link="/services/cleaning"
             linkState={{ type: 2 }}
           />
+          <ServiceItem
+            imgSrc="https://cdn-icons-png.flaticon.com/512/4331/4331899.png "
+            title="PMOC"
+            description="(Plano de Manutenção Operação e Controle) Implementação do PMOC para garantir qualidade do ar e eficiência do sistema de climatização, com inspeções regulares e relatórios detalhados."
+            link="/services/pmoc"
+            linkState={{ type: 3 }}
+          />
+
         </div>
       </div>
     </section>

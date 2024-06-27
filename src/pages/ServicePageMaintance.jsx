@@ -10,11 +10,11 @@ const ServicePageMaintance = () => {
   }, []);
 
   return (
-    <div id="service-page">
+    <div className="maintance" id="service-page">
       <div className="img"></div>
       <div className="container">
         <h2 className="my-4 text-color-blue">
-          Manutenção corretiva e preventiva
+          Limpeza de ar-condicionado
         </h2>
         <div className="mb-5">
           <h4>O que é</h4>
@@ -42,7 +42,7 @@ const ServicePageMaintance = () => {
           </p>
         </div>
         <div className="rounded shadow p-2 bg-color-blue mb-5 text-white py-5">
-        <h4 className="my-5 display-4 text-center">Benefícios</h4>
+          <h4 className="my-5 display-4 text-center">Benefícios</h4>
           <ul className="row">
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">

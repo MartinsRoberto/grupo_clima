@@ -3,6 +3,15 @@ import Isotope from "isotope-layout";
 import "./Gallery.css";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import limpUm from "../assets/Galery/limpUm.jpg"
+import limpDois from "../assets/Galery/limpDois.jpg"
+import limpTres from "../assets/Galery/limpTres.jpg"
+import limpQuatro from "../assets/Galery/limpQuatro.jpg"
+import projUm from "../assets/Galery/ProjUm.jpg"
+import projDois from "../assets/Galery/ProjDois.jpg"
+import projTres from "../assets/Galery/ProjTres.jpg"
+import projQuatro from "../assets/Galery/ProjQuatro.jpg"
+import projCinco from "../assets/Galery/ProjCinco.jpg"
 
 const IsotopeGrid = () => {
   const gridRef = useRef(null);
@@ -86,7 +95,7 @@ const IsotopeGrid = () => {
             <div className="overflow-hidden rounded des">
               <img
                 className="img-fluid"
-                src="https://fakeimg.pl/500x500"
+                src={limpUm}
                 alt="Rhinoceros"
               />
             </div>
@@ -100,7 +109,7 @@ const IsotopeGrid = () => {
             <div className="overflow-hidden rounded des">
               <img
                 className="img-fluid"
-                src="https://fakeimg.pl/500x500"
+                src={limpDois}
                 alt="Elephant"
               />
             </div>
@@ -114,7 +123,7 @@ const IsotopeGrid = () => {
             <div className="overflow-hidden rounded des">
               <img
                 className="img-fluid"
-                src="https://fakeimg.pl/500x500"
+                src={limpTres}
                 alt="Rhinoceros"
               />
             </div>
@@ -128,7 +137,7 @@ const IsotopeGrid = () => {
             <div className="overflow-hidden rounded des">
               <img
                 className="img-fluid"
-                src="https://fakeimg.pl/500x500"
+                src={limpQuatro}
                 alt="Rhinoceros"
               />
             </div>
@@ -142,7 +151,7 @@ const IsotopeGrid = () => {
             <div className="overflow-hidden rounded des">
               <img
                 className="img-fluid"
-                src="https://fakeimg.pl/500x500"
+                src={projUm}
                 alt="Rhinoceros"
               />
             </div>
@@ -156,7 +165,7 @@ const IsotopeGrid = () => {
             <div className="overflow-hidden rounded des">
               <img
                 className="img-fluid"
-                src="https://fakeimg.pl/500x500"
+                src={projDois}
                 alt="Rhinoceros"
               />
             </div>
@@ -170,7 +179,7 @@ const IsotopeGrid = () => {
             <div className="overflow-hidden rounded des">
               <img
                 className="img-fluid"
-                src="https://fakeimg.pl/500x500"
+                src={projTres}
                 alt="Rhinoceros"
               />
             </div>
@@ -184,7 +193,7 @@ const IsotopeGrid = () => {
             <div className="overflow-hidden rounded des">
               <img
                 className="img-fluid"
-                src="https://fakeimg.pl/500x500"
+                src={projQuatro}
                 alt="Rhinoceros"
               />
             </div>

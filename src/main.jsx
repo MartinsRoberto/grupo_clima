@@ -12,9 +12,9 @@ import "./index.css";
 import Home from "./pages/Home.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
-import ServicePageInstall from "./pages/ServicePageInstall.jsx";
-import ServicePageCleaning from "./pages/ServicePageCleaning.jsx";
 import ServicePageMaintance from "./pages/ServicePageMaintance.jsx";
+import ServicePageCleaning from "./pages/ServicePageCleaning.jsx";
+import ServicePagePmoc from "./pages/ServicePagePmoc.jsx";
 
 const router = createBrowserRouter([
   {
@@ -31,8 +31,8 @@ const router = createBrowserRouter([
         element: <BlogPage />,
       },
       {
-        path: "/services/install",
-        element: <ServicePageInstall />
+        path: "/services/maintance",
+        element: <ServicePageMaintance />
       }
       ,
       {
@@ -41,8 +41,8 @@ const router = createBrowserRouter([
       }
       ,
       {
-        path: "/services/maintance",
-        element: <ServicePageMaintance />
+        path: "/services/pmoc",
+        element: <ServicePagePmoc />
       }
     ],
   },
