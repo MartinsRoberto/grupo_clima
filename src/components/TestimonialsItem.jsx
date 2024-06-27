@@ -23,9 +23,9 @@ const TestimonialsItem = ({ name, text, stars }) => {
   return (
     <div className="my-5 me-3">
       <div className="py-4 px-4 rounded shadow-sm bg-light">
-        <p className="text-center">{text}</p>
         <h3 className="text-center">{name}</h3>
-        <div className="text-center">{renderStars(stars)}</div>
+        <div className="text-center mb-3">{renderStars(stars)}</div>
+        <p className="text-center">{text}</p>
       </div>
     </div>
   );

@@ -25,7 +25,7 @@ const Blog = () => {
           <div className="col-md-8">
             <h2 className="text-center text-color-blue">Blog</h2>
             <h5 className="text-center mb-5 fw-light">
-              Blog Blog Blog Blog Blog Blog
+            Dicas e Inspirações para Transformar seu Espaço com Limpeza e Manutenção Profissional
             </h5>
           </div>
           <div className="col-md-2"></div>

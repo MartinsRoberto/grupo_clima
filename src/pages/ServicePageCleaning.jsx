@@ -1,7 +1,11 @@
-import React, { useEffect } from "react";
-
-import { PiNumberCircleThreeFill } from "react-icons/pi";
-
+import React, { useEffect } from "react";import {
+  PiNumberCircleOneFill,
+  PiNumberCircleTwoFill,
+  PiNumberCircleThreeFill,
+  PiNumberCircleFourFill,
+  PiNumberCircleFiveFill,
+  PiNumberCircleSixFill
+} from "react-icons/pi";
 import "./ServicePage.css";
 
 const ServicePageCleaning = () => {
@@ -44,50 +48,50 @@ const ServicePageCleaning = () => {
           <ul className="row">
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                TECNOLOGIA
+                Eficiência Melhorada
               </span>
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                A limpeza regular dos filtros de ar garante que seu ar condicionado funcione com máxima eficiência, proporcionando um ambiente mais confortável e saudável.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                TECNOLOGIA
+                Ar Mais Puro
               </span>
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Filtros limpos ajudam a remover poeira, pólen e outros alérgenos do ar, melhorando a qualidade do ar que você respira em sua casa ou escritório.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                TECNOLOGIA
+                Durabilidade do Equipamento
               </span>
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Manter os filtros limpos prolonga a vida útil do seu aparelho de ar condicionado, reduzindo a necessidade de reparos e substituições caras.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                TECNOLOGIA
+                Menor Consumo de Energia
               </span>
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Com filtros limpos, seu ar condicionado opera de forma mais eficiente, resultando em menor consumo de energia elétrica e redução nos custos de manutenção.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                TECNOLOGIA
+                Conforto Térmico
               </span>
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Um sistema de ar condicionado limpo proporciona uma distribuição mais uniforme de temperatura, garantindo conforto térmico durante todo o ano.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                TECNOLOGIA
+                Redução de Odores
               </span>
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                A limpeza dos filtros ajuda a eliminar odores desagradáveis, mantendo o ambiente fresco e agradável.
               </p>
             </li>
           </ul>
@@ -95,50 +99,50 @@ const ServicePageCleaning = () => {
           <ul className="row">
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                TECNOLOGIA
+                Tecnologia Avançada de Limpeza
               </span>
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Utilizamos técnicas avançadas para garantir uma limpeza profunda e eficiente dos filtros de ar, seguindo os mais altos padrões de qualidade.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                TECNOLOGIA
+                Profissionais Especializados
               </span>
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Nossa equipe é composta por técnicos treinados e experientes, garantindo um serviço de limpeza de ar condicionado seguro e confiável.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                TECNOLOGIA
+                Atendimento Personalizado
               </span>
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Oferecemos um atendimento personalizado, adaptando nossos serviços às necessidades específicas de cada cliente e garantindo sua total satisfação.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                TECNOLOGIA
+                Uso de Produtos Eco-friendly
               </span>
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Priorizamos o uso de produtos de limpeza que são seguros para o meio ambiente e para a saúde dos ocupantes do espaço.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                TECNOLOGIA
+                Garantia de Satisfação
               </span>
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Garantimos a qualidade do nosso serviço com uma política de satisfação total do cliente, assegurando que suas expectativas sejam sempre superadas.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                TECNOLOGIA
+                Agendamento Flexível
               </span>
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Oferecemos opções de agendamento flexíveis para a limpeza do ar condicionado, adaptando-nos à sua agenda e conveniência.
               </p>
             </li>
           </ul>
@@ -150,7 +154,16 @@ const ServicePageCleaning = () => {
                 alt=""
               />
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Limpeza detalhada dos filtros de ar para remoção de sujeira, poeira e contaminantes.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+            <img
+                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
+                alt=""
+              />
+              <p className="px-3">
+                Inspeção visual e teste de funcionamento após a limpeza dos filtros de ar.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
@@ -159,7 +172,7 @@ const ServicePageCleaning = () => {
                 alt=""
               />
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Verificação e ajuste dos controles de temperatura e umidade do ar condicionado.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
@@ -168,7 +181,7 @@ const ServicePageCleaning = () => {
                 alt=""
               />
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Revisão geral do sistema de ventilação e funcionamento dos ventiladores do aparelho.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
@@ -177,7 +190,7 @@ const ServicePageCleaning = () => {
                 alt=""
               />
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Verificação no condensador do ar-condicionado para garantia de um melhor funcionamento
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
@@ -186,54 +199,35 @@ const ServicePageCleaning = () => {
                 alt=""
               />
               <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <img
-                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-                alt=""
-              />
-              <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <img
-                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-                alt=""
-              />
-              <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <img
-                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-                alt=""
-              />
-              <p className="px-3">
-                Limpeza dos filtros de ar we89rn wer9fnuwe sa9opinmda das8dn0
+                Teste de pressão do gás refrigerante e ajustes necessários para garantir a eficiência do ar condicionado.
               </p>
             </li>
           </ul>
           <h4 className="my-5 display-4 text-center">Etapas</h4>
-          <ul>
+          <ul className="text-center">
             <li className="d-flex align-items-center justify-content-center gap-3">
-              <PiNumberCircleThreeFill className="text-color-green display-1" style={{width: "50px"}}/>
+              <PiNumberCircleOneFill className="text-color-green display-1" style={{ width: "50px" }} />
+              Revisão geral do sistema de ventilação e funcionamento de todos os componentes do aparelho
+            </li>
+            <li className="d-flex align-items-center justify-content-center gap-3">
+              <PiNumberCircleTwoFill className="text-color-green display-1" style={{ width: "50px" }} />
               Desmontar a parte frontal do aparelho de ar condicionado
             </li>
             <li className="d-flex align-items-center justify-content-center gap-3">
-              <PiNumberCircleThreeFill className="text-color-green display-1" style={{width: "50px"}}/>
-              Desmontar a parte frontal do aparelho de ar condicionado
+              <PiNumberCircleThreeFill className="text-color-green display-1" style={{ width: "50px" }} />
+              Fazemos a limpeza minuciosa de todo o sistema de ar condicionado, para remoção eficiente de sujeira, poeira e contaminantes
             </li>
             <li className="d-flex align-items-center justify-content-center gap-3">
-              <PiNumberCircleThreeFill className="text-color-green display-1" style={{width: "50px"}}/>
-              Desmontar a parte frontal do aparelho de ar condicionado
+              <PiNumberCircleFourFill className="text-color-green display-1" style={{ width: "50px" }} />
+              Inspeção visual e teste de funcionamento após a limpeza detalhada
             </li>
             <li className="d-flex align-items-center justify-content-center gap-3">
-              <PiNumberCircleThreeFill className="text-color-green display-1" style={{width: "50px"}}/>
-              Desmontar a parte frontal do aparelho de ar condicionado
+              <PiNumberCircleFiveFill className="text-color-green display-1" style={{ width: "50px" }} />
+              Verificação e ajuste dos controles de temperatura e umidade do ar condicionado
+            </li>
+            <li className="d-flex align-items-center justify-content-center gap-3">
+              <PiNumberCircleSixFill className="text-color-green display-1" style={{ width: "50px" }} />
+              Teste e ajustes necessários para garantir a eficiência do ar condicionado
             </li>
           </ul>
         </div>
@@ -243,3 +237,4 @@ const ServicePageCleaning = () => {
 };
 
 export default ServicePageCleaning;
+

@@ -18,8 +18,8 @@ const Testimonials = () => {
         <div className="row">
           <div className="col-md-2"></div>
           <div className="col-md-8">
-            <h2 className="text-center text-color-blue">Testimonials</h2>
-            <h5 className="text-center mb-2 fw-light">PEOPLE LOVE US</h5>
+            <h2 className="text-center text-color-blue">Avaliações</h2>
+            <h5 className="text-center mb-2 fw-light">Nossos comentários e recomendações de nossos clientes no Google!</h5>
           </div>
           <div className="col-md-2"></div>
         </div>
@@ -79,24 +79,24 @@ const Testimonials = () => {
             swipeable
           >
             <TestimonialsItem
-              stars={1}
-              name="AAAAAA"
-              text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur officia blanditiis dolorem deserunt eum placeat doloribus vero, quibusdam ex repellat vel, iure, dolore animi libero velit incidunt asperiores suscipit et?"
+              stars={5}
+              name="José Carlos Figueiredo"
+              text="Ótimo atendimento serviço executado com detalhes e seriedade, agora estou mais tranquilo com meu carro novo RECOMENDO  TOP!!!"
             />
             <TestimonialsItem
-              stars={2}
-              name="BBBBBB"
-              text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur officia blanditiis dolorem deserunt eum placeat doloribus vero, quibusdam ex repellat vel, iure, dolore animi libero velit incidunt asperiores suscipit et?"
-            />
-            <TestimonialsItem
-              stars={3}
-              name="CCCCCCCC"
-              text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur officia blanditiis dolorem deserunt eum placeat doloribus vero, quibusdam ex repellat vel, iure, dolore animi libero velit incidunt asperiores suscipit et?"
+              stars={5}
+              name="Farmácia Lilium"
+              text="Plenamente satisfeita com a prestação do serviço da empresa.  Atendimento extremamente rápido e super atenciosos."
             />
             <TestimonialsItem
               stars={4.5}
-              name="DDDDDD"
-              text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur officia blanditiis dolorem deserunt eum placeat doloribus vero, quibusdam ex repellat vel, iure, dolore animi libero velit incidunt asperiores suscipit et?"
+              name="Sophia Sirvinskas"
+              text="Adorei o serviço e o atendimento. Muito bom!"
+            />
+            <TestimonialsItem
+              stars={4}
+              name="Marcos Marques"
+              text="Empresa séria e de confiança.  Recomendo!!"
             />
           </Carousel>
         </div>

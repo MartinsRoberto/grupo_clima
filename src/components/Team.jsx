@@ -10,7 +10,7 @@ const Team = () => {
     <section id="team" className="bg-light">
       <div className="container ">
         <div className="row bg-white rounded shadow py-5">
-          <div className="col-lg-6 d-flex flex-column align-items-center align-items-lg-center  justify-content-center">
+          <div className="col-lg-7 d-flex flex-column align-items-center align-items-lg-center  justify-content-center">
             <motion.h2
               ref={ref}
               initial={{ opacity: 0, y: 100 }}
@@ -41,7 +41,7 @@ const Team = () => {
               jornada de inovação e excelência!
             </motion.p>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-5">
             <div style={{ display: "flex", justifyContent: "center" }}>
               <iframe
                 className="border rounded"

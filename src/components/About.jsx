@@ -3,6 +3,7 @@ import { FaCheck } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./About.css";
+import mascote from "../assets/Mascote.png"
 
 const About = () => {
   const [refText, inViewText] = useInView({
@@ -27,7 +28,7 @@ const About = () => {
           >
             <img
               className="img-fluid mb-2 mb-md-3 mb-lg-0 rounded"
-              src="https://fakeimg.pl/800x500"
+              src={mascote}
               alt=""
             />
           </motion.div>

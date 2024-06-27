@@ -19,12 +19,10 @@ const Promotion = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <h2 className="text-center text-lg-start mb-5 text-color-green">
-                24/7 SERVICES
+              Ofertas imperdíveis para você!
               </h2>
               <h5 className="text-center text-lg-start mb-5 text-white">
-                Air conditioning services encompass a wide range of activities
-                related to the installation, maintenance, repair, and
-                replacement of ACs.
+              Aproveite descontos exclusivos em serviços de limpeza, manutenção e instalação. Não perca a oportunidade de deixar seu espaço impecável com nossos preços especiais!
               </h5>
             </motion.div>
           </div>
@@ -35,15 +33,14 @@ const Promotion = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <h2 className="text-center text-lg-start">Best Offer!</h2>
               <h3 className="text-center text-lg-start">
-                Sunday Deal 50% Off<span>UPTO</span>
+              Promoção de inverno: Limpeza de ar-condicionado com desconto
               </h3>
               <p className="text-center text-lg-start">
-                *installation, maintenance, repair, and replacement of ACs.
+              Prepare-se para os dias frios! Garanta um ar mais puro e saudável dentro de casa com nossa oferta especial de limpeza de ar-condicionado. Descontos exclusivos para manter seu conforto e saúde durante todo o inverno!
               </p>
               <a href="#contact" className="btn btn-secondary d-block">
-                Book Now
+                Confira Agora
               </a>
             </motion.div>
           </div>
