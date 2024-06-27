@@ -41,9 +41,9 @@ const IsotopeGrid = () => {
             transition={{ duration: 0.5 }}
             className="col-md-12 text-center"
           >
-            <h2 className="text-color-blue">Our Gallery</h2>
+            <h2 className="text-color-blue">Explore nossa Galeria</h2>
             <h5 className="mb-5 fw-light">
-              Our gallery Our gallery Our gallery Our gallery
+            Descubra a excelência em cada detalhe dos nossos projetos de Limpeza, Manutenção e Instalação.
             </h5>
           </motion.div>
         </div>
@@ -55,7 +55,7 @@ const IsotopeGrid = () => {
             className="shadow-sm rounded-pill px-3 py-2 btn-gallery"
             onClick={handleFilterKeyChange("*")}
           >
-            Show All
+            Mostrar Tudo
           </motion.span>
           <motion.span
             initial={{ opacity: 0, y: 100 }}
@@ -64,7 +64,7 @@ const IsotopeGrid = () => {
             className="shadow-sm rounded-pill px-3 py-2 btn-gallery"
             onClick={handleFilterKeyChange(".category-a")}
           >
-            Category A
+            Limpeza
           </motion.span>
           <motion.span
             initial={{ opacity: 0, y: 100 }}
@@ -73,7 +73,7 @@ const IsotopeGrid = () => {
             className="shadow-sm rounded-pill px-3 py-2 btn-gallery"
             onClick={handleFilterKeyChange(".category-b")}
           >
-            Category B
+            Projetos
           </motion.span>
         </div>
         <div className="row" ref={gridRef}>

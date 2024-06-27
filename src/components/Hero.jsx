@@ -65,11 +65,9 @@ const Hero = () => {
           <div className="z-0 position-absolute overlay"></div>
           <div className="position-absolute z-3 w-100">
             <div className="container">
-              <h1 className="text-white">Air Conditioning Installation</h1>
+              <h1 className="text-white">Renove o ar da sua casa! Limpeza profissional de <br /> Ar-condicionado</h1>
               <p className="text-white">
-                Air conditioning services encompass a wide range of activities
-                related to the installation, maintenance, repair, and
-                replacement of ACs.
+              Garanta um ambiente saudável e fresco para sua família. Profissionais especializados prontos para cuidar do seu conforto.
               </p>
             </div>
           </div>
@@ -78,11 +76,9 @@ const Hero = () => {
           <div className="z-0 position-absolute overlay"></div>
           <div className="position-absolute z-3 w-100">
             <div className="container">
-              <h1 className="text-white">Air Conditioning Installation</h1>
+              <h1 className="text-white">Descubra como uma simples limpeza pode fazer <br /> toda a diferença</h1>
               <p className="text-white">
-                Air conditioning services encompass a wide range of activities
-                related to the installation, maintenance, repair, and
-                replacement of ACs.
+              Melhore a eficiência do seu aparelho e respire melhor. Manutenção preventiva que cabe no seu bolso.
               </p>
             </div>
           </div>
@@ -91,11 +87,9 @@ const Hero = () => {
           <div className="z-0 position-absolute overlay"></div>
           <div className="position-absolute z-3 w-100">
             <div className="container">
-              <h1 className="text-white">Air Conditioning Installation</h1>
+              <h1 className="text-white">Respire tranquilo em casa! Limpeza de <br />Ar-condicionado</h1>
               <p className="text-white">
-                Air conditioning services encompass a wide range of activities
-                related to the installation, maintenance, repair, and
-                replacement of ACs.
+              Proteja sua saúde e economize energia. Especialistas em limpeza para um desempenho máximo do seu equipamento, a solução para um ambiente mais seguro e confortável.
               </p>
             </div>
           </div>

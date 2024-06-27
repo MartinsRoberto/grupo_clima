@@ -39,42 +39,41 @@ const About = () => {
             className="col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start order-1 order-lg-2"
           >
             <h2 className="text-center text-lg-start text-color-green">
-              About
+              Sobre-nós
             </h2>
             <h5 className="text-center text-lg-start mb-5 fw-light">
-              About About About About About About
+              Quem somos e o que fazemos
             </h5>
-            <p className="text-center text-lg-start ">
-              Air conditioning services encompass a wide range of activities
-              related to the installation, maintenance, repair, and replacement
-              of ACs.
+            <p className="text-center text-lg-start">
+              Serviços de ar condicionado englobam uma ampla gama de atividades
+              relacionadas à instalação, manutenção, reparo e substituição de ACs.
             </p>
             <h5 className="text-center text-lg-start text-color-blue mb-4">
-              Why us?
+              Por que escolher-nos?
             </h5>
             <ul>
               <li className="d-flex justify-content-center justify-content-lg-start align-items-center gap-2">
                 <FaCheck />
-                Motivo A
+                Compromisso com a qualidade do ar
               </li>
               <li className="d-flex justify-content-center justify-content-lg-start align-items-center gap-2">
                 <FaCheck />
-                Motivo A
+                Técnicos qualificados e experientes
               </li>
               <li className="d-flex justify-content-center justify-content-lg-start align-items-center gap-2">
                 <FaCheck />
-                Motivo A
+                Serviços personalizados conforme suas necessidades
               </li>
               <li className="d-flex justify-content-center justify-content-lg-start align-items-center gap-2">
                 <FaCheck />
-                Motivo A
+                Conformidade com normas e regulamentos
               </li>
             </ul>
           </motion.div>
         </div>
       </div>
     </section>
-  );
+  );  
 };
 
 export default About;

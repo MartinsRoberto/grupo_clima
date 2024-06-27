@@ -10,13 +10,10 @@ const Services = () => {
           <div className="col-md-2"></div>
           <div className="col-md-8">
             <h2 className="text-center text-color-blue ">
-              Serviços disponíveis
+            Soluções completas para seu sistema de ar condicionado: Limpeza, Manutenção e PMOC
             </h2>
             <h5 className="text-center mb-5 fw-light">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-              officia blanditiis dolorem deserunt eum placeat doloribus vero,
-              quibusdam ex repellat vel, iure, dolore animi libero velit
-              incidunt asperiores suscipit et?
+            Descubra como podemos cuidar do seu sistema de ar condicionado com nossos serviços especializados. Realizamos limpeza profunda para garantir ar limpo e saudável, manutenção corretiva para resolver problemas rapidamente e manutenção preventiva para evitar falhas. Além disso, oferecemos contratos PMOC para manter seu ambiente em conformidade com as normas, proporcionando segurança e eficiência contínua. Confie na nossa experiência e deixe-nos cuidar do seu conforto com soluções abrangentes e eficazes.
             </h5>
           </div>
           <div className="col-md-2"></div>
@@ -24,24 +21,24 @@ const Services = () => {
         <div className="row">
           <ServiceItem
             imgSrc="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
-            title="Instalação"
-            description="New AC construction or replacement, ensuring proper techniques and building code compliance."
+            title="Instalação" 
+            description="Instalação de novos sistemas de ar condicionado ou substituição, assegurando técnicas adequadas e conformidade com os códigos de construção."
             link="/services/install"
             linkState={{ type: 1 }}
           />
-          <ServiceItem
-            imgSrc="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
-            title="Manutenção corretiva e preventiva"
-            description="New AC construction or replacement, ensuring proper techniques and building code compliance."
-            link="/services/maintance"
-            linkState={{ type: 2 }}
-          />
+            <ServiceItem
+              imgSrc="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
+              title="PMOC (Plano de Manutenção Operação e Controle)"
+              description="Implementação e execução de PMOC conforme normas regulatórias para garantir a qualidade do ar e o desempenho eficiente do sistema de climatização, incluindo inspeções regulares e relatórios detalhados."
+              link="/services/cleaning"
+              linkState={{ type: 3 }}
+            />
           <ServiceItem
             imgSrc="https://zrtechsolutions.com/demo/html/airconditioning/assets/images/icons/s1.svg"
             title="Limpeza"
-            description="New AC construction or replacement, ensuring proper techniques and building code compliance."
-            link="/services/cleaning"
-            linkState={{ type: 3 }}
+            description="Serviço profissional de limpeza de ar condicionado para melhorar a qualidade do ar interno, removendo poeira, ácaros e contaminantes, proporcionando um ambiente mais saudável."
+            link="/services/maintance"
+            linkState={{ type: 2 }}
           />
         </div>
       </div>
