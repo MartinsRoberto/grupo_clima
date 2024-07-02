@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { PiNumberCircleThreeFill } from "react-icons/pi";
+import { PiNumberCircleOneFill, PiNumberCircleTwoFill, PiNumberCircleThreeFill, PiNumberCircleFourFill, PiNumberCircleFiveFill, PiNumberCircleSixFill } from "react-icons/pi";
 import "./ServicePage.css";
 
 const ServicePagePmoc = () => {
@@ -17,198 +17,199 @@ const ServicePagePmoc = () => {
         <div className="mb-5">
           <h4>O que é</h4>
           <p>
-            O Grupo Clima preza pela qualidade dos serviços prestados.
-            Entendemos que até o melhor modelo de aparelho de ar-condicionado
-            necessita de manutenção corretiva e preventiva, por isso, oferecemos
-            uma equipe composta por técnicos especializados para realizar os
-            procedimentos mais adequados, após análise caso a caso.
+            O Grupo Clima preza pela qualidade dos serviços prestados. Entendemos que a manutenção de aparelhos de ar-condicionado é essencial para garantir um ambiente saudável e confortável. Por isso, oferecemos uma equipe composta por técnicos especializados para realizar os procedimentos mais adequados, após análise caso a caso.
           </p>
           <p>
-            Apostar na realização de manutenções preventivas de aparelhos
-            condicionadores de ar é ter a chance de reduzir gastos futuros, além
-            de contribuir diretamente com o bem-estar das pessoas que ficam em
-            contato frequente com o ar dos ambientes climatizados.
+            A implementação do PMOC é essencial para garantir a eficiência, segurança e qualidade do ar condicionado. Este plano visa reduzir gastos futuros, além de contribuir diretamente com o bem-estar das pessoas que ficam em contato frequente com o ar dos ambientes climatizados.
           </p>
           <p>
-            Um dos procedimentos que realizamos é a limpeza de todos os tipos de
-            sujeiras acumuladas no aparelho para evitar a proliferação de
-            agentes que prejudicam a qualidade do ar e atingem diretamente à
-            saúde das pessoas. Nossas manutenções são realizadas em conformidade
-            com a Portaria 3.523/98 do Ministério da Saúde, Resolução nº9/2003,
-            da Agência Nacional de Vigilância Sanitária (Anvisa) e com a
-            elaboração do Plano de Manutenção, Operação e Controle (PMOC).
+            Nossas manutenções são realizadas em conformidade com a Portaria 3.523/98 do Ministério da Saúde, Resolução nº 9/2003, da Agência Nacional de Vigilância Sanitária (Anvisa) e com a elaboração do Plano de Manutenção, Operação e Controle (PMOC).
           </p>
         </div>
-        <div className="rounded shadow p-2 bg-color-blue mb-5 text-white py-5">
+        <div className="rounded shadow p-2 bg-color-blue mb-5 px-md-5 text-white py-5">
           <h4 className="my-5 display-4 text-center">Benefícios</h4>
           <ul className="row">
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                Redução de riscos à saúde
+                Eficiência Melhorada
               </span>
               <p className="px-3">
-                Melhora na qualidade do ar com a limpeza e manutenção adequadas.
+                A manutenção regular dos sistemas de ar condicionado garante que eles funcionem com máxima eficiência, proporcionando um ambiente mais confortável e saudável.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                Eficiência energética
+                Ar Mais Puro
               </span>
               <p className="px-3">
-                Economia de energia ao manter o sistema de ar-condicionado em
-                condições ideais de funcionamento.
+                A manutenção adequada ajuda a remover poeira, pólen e outros alérgenos do ar, melhorando a qualidade do ar que você respira em sua casa ou escritório.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                Conformidade regulatória
+                Durabilidade do Equipamento
               </span>
               <p className="px-3">
-                Cumprimento das normas vigentes para operação de sistemas de
-                climatização.
+                Manter os sistemas de ar condicionado em boas condições prolonga a vida útil dos aparelhos, reduzindo a necessidade de reparos e substituições caras.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                Longevidade dos equipamentos
+                Menor Consumo de Energia
               </span>
               <p className="px-3">
-                Prolongamento da vida útil dos aparelhos com manutenções adequadas.
+                Com a manutenção adequada, seu ar condicionado opera de forma mais eficiente, resultando em menor consumo de energia elétrica e redução nos custos de manutenção.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                Segurança operacional
+                Conforto Térmico
               </span>
               <p className="px-3">
-                Redução de falhas e melhor desempenho dos sistemas de climatização.
+                Um sistema de ar condicionado bem mantido proporciona uma distribuição mais uniforme de temperatura, garantindo conforto térmico durante todo o ano.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
               <span className="fw-semibold fs-4 text-color-green">
-                Economia financeira
+                Redução de Odores
               </span>
               <p className="px-3">
-                Redução de custos com reparos emergenciais ao evitar problemas graves.
-              </p>
-            </li>
-          </ul>
-          <h4 className="my-5 display-4 text-center">Diferenciais</h4>
-          <ul className="row">
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <span className="fw-semibold fs-4 text-color-green">
-                Atendimento personalizado
-              </span>
-              <p className="px-3">
-                Serviços adaptados às necessidades específicas de cada cliente.
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <span className="fw-semibold fs-4 text-color-green">
-                Equipe especializada
-              </span>
-              <p className="px-3">
-                Profissionais capacitados para execução de PMOC conforme
-                exigências técnicas.
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <span className="fw-semibold fs-4 text-color-green">
-                Relatório detalhado
-              </span>
-              <p className="px-3">
-                Documentação completa das atividades realizadas, garantindo
-                transparência e controle.
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <span className="fw-semibold fs-4 text-color-green">
-                Suporte pós-serviço
-              </span>
-              <p className="px-3">
-                Assistência contínua para dúvidas e manutenções adicionais.
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <span className="fw-semibold fs-4 text-color-green">
-                Uso de tecnologia avançada
-              </span>
-              <p className="px-3">
-                Equipamentos modernos para diagnóstico preciso e eficiente.
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <span className="fw-semibold fs-4 text-color-green">
-                Compromisso ambiental
-              </span>
-              <p className="px-3">
-                Práticas sustentáveis durante as operações de manutenção.
+                A manutenção dos sistemas ajuda a eliminar odores desagradáveis, mantendo o ambiente fresco e agradável.
               </p>
             </li>
           </ul>
           <h4 className="my-5 display-4 text-center">Está Incluso</h4>
           <ul className="row">
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <img
-                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-                alt="Limpeza de filtros de ar"
-              />
-              <p className="px-3">
-                Limpeza detalhada dos filtros de ar para melhorar a eficiência do sistema.
+              <div className="" style={{ width: "8rem" }}>
+                <img
+                  className="img-fluid"
+                  src="https://cdn-icons-png.flaticon.com/512/5530/5530534.png"
+                  alt="Ícone de tubo"
+                />
+              </div>
+              <p className="px-3 mb">
+                Inspeção detalhada dos componentes do sistema de ar-condicionado para garantir o funcionamento adequado e prevenir falhas.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <img
-                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-                alt="Inspeção de dutos"
-              />
+              <div className="" style={{ width: "8rem" }}>
+                <img
+                  className="img-fluid"
+                  src="https://cdn-icons-png.flaticon.com/512/3925/3925998.png"
+                  alt="Ícone de tubo"
+                />
+              </div>
               <p className="px-3">
-                Inspeção e limpeza dos dutos de ar para evitar obstruções e melhorar a circulação.
+                Limpeza e desinfecção dos filtros de ar para garantir a qualidade do ar interno e a eficiência do sistema.
               </p>
             </li>
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <img
-                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-                alt="Ajustes e testes"
-              />
+              <div className="" style={{ width: "8rem" }}>
+                <img
+                  className="img-fluid"
+                  src="https://cdn-icons-png.flaticon.com/512/4235/4235859.png"
+                  alt="Ícone de tubo"
+                />
+              </div>
               <p className="px-3">
-                Ajustes e testes operacionais para assegurar o funcionamento          
-                </p>
-        </li>
-        <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-          <img
-            src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-            alt="Documentação completa"
-          />
-          <p className="px-3">
-            Emissão de documentação completa das atividades realizadas, garantindo conformidade.
-          </p>
-        </li>
-        <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-          <img
-            src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-            alt="Suporte técnico"
-          />
-          <p className="px-3">
-            Suporte técnico contínuo para esclarecimento de dúvidas e assistência adicional.
-          </p>
-        </li>
-        <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-          <img
-            src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-            alt="Conformidade legal"
-          />
-          <p className="px-3">
-            Assegurar conformidade com normas e regulamentações vigentes para operação de sistemas de climatização.
-          </p>
-        </li>
-      </ul>
-      
-    </div>
-  </div>
-</div>
+                Verificação e limpeza das serpentinas de resfriamento e aquecimento para manter a troca térmica eficiente.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column justify-items align-items-center gap-3">
+              <div className="" style={{ width: "8rem" }}>
+                <img
+                  className="img-fluid"
+                  src="https://cdn-icons-png.flaticon.com/512/2960/2960766.png"
+                  alt="Ícone de tubo"
+                />
+              </div>
+              <p className="px-3">
+                Verificação e limpeza do sistema de drenagem para prevenir vazamentos e acúmulo de água.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <div className="" style={{ width: "8rem" }}>
+                <img
+                  className="img-fluid"
+                  src="https://cdn-icons-png.flaticon.com/512/911/911409.png"
+                  alt="Ícone de tubo"
+                />
+              </div>
+              <p className="px-3">
+                Avaliação das condições dos ventiladores e motores para garantir a circulação adequada do ar.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <div className="" style={{ width: "8rem" }}>
+                <img
+                  className="img-fluid"
+                  src="https://cdn-icons-png.flaticon.com/512/7674/7674996.png"
+                  alt="Ícone de tubo"
+                />
+              </div>
+              <p className="px-3">
+                Aplicação de produtos específicos para evitar a proliferação de fungos, bactérias e outros agentes nocivos no sistema.
+              </p>
+            </li>
+          </ul>
 
-);
+
+          <h4 className="my-5 display-4 text-center">Diferenciais</h4>
+          <ul className="row">
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <span className="fw-semibold fs-4 text-color-green">
+                Tecnologia Avançada de Manutenção
+              </span>
+              <p className="px-3">
+                Utilizamos técnicas avançadas para garantir uma manutenção profunda e eficiente, seguindo os mais altos padrões de qualidade.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <span className="fw-semibold fs-4 text-color-green">
+                Profissionais Especializados
+              </span>
+              <p className="px-3">
+                Nossa equipe é composta por técnicos treinados e experientes, garantindo um serviço de manutenção seguro e confiável.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <span className="fw-semibold fs-4 text-color-green">
+                Atendimento Personalizado
+              </span>
+              <p className="px-3">
+                Oferecemos um atendimento personalizado, adaptando nossos serviços às necessidades específicas de cada cliente e garantindo sua total satisfação.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <span className="fw-semibold fs-4 text-color-green">
+                Uso de Produtos Eco-friendly
+              </span>
+              <p className="px-3">
+                Priorizamos o uso de produtos de limpeza que são seguros para o meio ambiente e para a saúde dos ocupantes do espaço.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <span className="fw-semibold fs-4 text-color-green">
+                Garantia de Satisfação
+              </span>
+              <p className="px-3">
+                Garantimos a qualidade do nosso serviço com uma política de satisfação total do cliente, assegurando que suas expectativas sejam sempre superadas.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <span className="fw-semibold fs-4 text-color-green">
+                Agendamento Flexível
+              </span>
+              <p className="px-3">
+                Oferecemos opções de agendamento flexíveis para a manutenção do ar condicionado, adaptando-nos à sua agenda e conveniência.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default ServicePagePmoc;

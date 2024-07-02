@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "./Header.css";
 import { NavLink, useNavigate } from "react-router-dom";
 import HeaderInfo from "./HeaderInfo";
+import logo from "../assets/Logo/logo.png";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -10,9 +11,9 @@ const Header = () => {
   const handleNavLinkClick = (e, targetId) => {
     e.preventDefault();
     navigate("/", { replace: false }); // Navegar para a rota raiz
-  
+
     // Rolar instantaneamente para o topo
-  
+
     // Rolar suavemente para o elemento alvo após um pequeno atraso
     setTimeout(() => {
       const targetElement = document.querySelector(targetId);
@@ -20,14 +21,14 @@ const Header = () => {
         const offset = 88; // Ajuste este valor conforme necessário
         const elementPosition = targetElement.getBoundingClientRect().top;
         const offsetPosition = elementPosition + window.pageYOffset - offset;
-  
+
         window.scrollTo({
           top: offsetPosition,
           behavior: "smooth",
         });
       }
     }, 100);
-  
+
     // Fechar o menu no modo mobile
     const navBar = navRef.current;
     if (navBar && navBar.classList.contains("show")) {
@@ -38,13 +39,13 @@ const Header = () => {
   return (
     <header id="header">
       <HeaderInfo />
-      <nav className="navbar fixed-top navbar-expand-lg bg-light shadow py-2" style={{ marginTop: "32px"}}>
+      <nav className="navbar fixed-top navbar-expand-lg bg-light shadow py-2" style={{ marginTop: "32px" }}>
         <div className="container">
           <NavLink
             className="navbar-brand"
             onClick={(e) => handleNavLinkClick(e, "#hero")}
           >
-            Navbar
+            <img className="img-fluid" width={150} src={logo} alt="Logo"/>
           </NavLink>
           <button
             className="navbar-toggler"
@@ -83,7 +84,7 @@ const Header = () => {
               >
                 Blog
               </NavLink>
-              <a href="https://web.whatsapp.com/send?phone=551194910-9358" className="btn btn-primary fw-bold">Fale conosco</a>
+              <a href="https://web.whatsapp.com/send?phone=551194910-9358" className="btn btn-primary py-2 fw-bold">Fale conosco</a>
             </div>
           </div>
         </div>

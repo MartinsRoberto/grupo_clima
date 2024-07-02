@@ -1,10 +1,12 @@
-import React, { useEffect } from "react";import {
+import { useEffect } from "react"; import {
   PiNumberCircleOneFill,
   PiNumberCircleTwoFill,
   PiNumberCircleThreeFill,
   PiNumberCircleFourFill,
   PiNumberCircleFiveFill,
-  PiNumberCircleSixFill
+  PiNumberCircleSixFill,
+  PiNumberCircleSevenFill,
+  
 } from "react-icons/pi";
 import "./ServicePage.css";
 
@@ -19,31 +21,18 @@ const ServicePageCleaning = () => {
       <div className="container">
         <h2 className="my-4 text-color-blue">Limpeza de ar-condicionado</h2>
         <div className="mb-5">
-          <h4>O que é</h4>
+          <h4 className="mb-3">O que é</h4>
           <p>
-            O Grupo Clima preza pela qualidade dos serviços prestados.
-            Entendemos que até o melhor modelo de aparelho de ar-condicionado
-            necessita de manutenção corretiva e preventiva, por isso, oferecemos
-            uma equipe composta por técnicos especializados para realizar os
-            procedimentos mais adequados, após análise caso a caso.
+            No Grupo Clima, valorizamos a qualidade dos serviços prestados. Entendemos que a limpeza regular do ar-condicionado é essencial para garantir um ambiente saudável e confortável. Por isso, oferecemos uma equipe de técnicos especializados para realizar a limpeza detalhada de todos os componentes do aparelho.
           </p>
           <p>
-            Apostar na realização de manutenções preventivas de aparelhos
-            condicionadores de ar é ter a chance de reduzir gastos futuros, além
-            de contribuir diretamente com o bem-estar das pessoas que ficam em
-            contato frequente com o ar dos ambientes climatizados.
+            A limpeza regular dos aparelhos de ar-condicionado é fundamental para evitar a proliferação de bactérias, fungos e outros agentes que podem comprometer a qualidade do ar e a saúde das pessoas. Além disso, a limpeza adequada contribui para o melhor desempenho do aparelho, aumentando sua vida útil e eficiência.
           </p>
           <p>
-            Um dos procedimentos que realizamos é a limpeza de todos os tipos de
-            sujeiras acumuladas no aparelho para evitar a proliferação de
-            agentes que prejudicam a qualidade do ar e atingem diretamente à
-            saúde das pessoas. Nossas manutenções são realizadas em conformidade
-            com a Portaria 3.523/98 do Ministério da Saúde, Resolução nº9/2003,
-            da Agência Nacional de Vigilância Sanitária (Anvisa) e com a
-            elaboração do Plano de Manutenção, Operação e Controle (PMOC).
+            Realizamos a limpeza completa, removendo toda a sujeira acumulada, como poeira, mofo e outros resíduos. Nossos serviços seguem rigorosamente a Portaria 3.523/98 do Ministério da Saúde, a Resolução nº 9/2003 da Anvisa e o Plano de Manutenção, Operação e Controle (PMOC), assegurando que os aparelhos estejam sempre em conformidade com as normas de saúde e segurança.
           </p>
         </div>
-        <div className="rounded shadow p-2 bg-color-blue mb-5 text-white py-5">
+        <div className="rounded shadow p-2 bg-color-blue mb-5 px-md-5 text-white py-5">
           <h4 className="my-5 display-4 text-center">Benefícios</h4>
           <ul className="row">
             <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
@@ -94,6 +83,87 @@ const ServicePageCleaning = () => {
                 A limpeza dos filtros ajuda a eliminar odores desagradáveis, mantendo o ambiente fresco e agradável.
               </p>
             </li>
+          </ul>
+
+
+          <h4 className="my-5 display-4 text-center">Está Incluso</h4>
+          <ul className="row">
+
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <div className="" style={{ width: "8rem" }}>
+                <img
+                  className="img-fluid"
+                  src="https://cdn-icons-png.flaticon.com/512/5530/5530534.png"
+                  alt="Ícone de tubo"
+                />
+              </div>
+              <p className="px-3 mb">
+                Inspeção detalhada de componentes internos e externos do equipamento antes da realização da higienização.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <div className="" style={{ width: "8rem" }}>
+                <img
+                  className="img-fluid"
+                  src="https://cdn-icons-png.flaticon.com/512/3925/3925998.png"
+                  alt="Ícone de tubo"
+                />
+              </div>
+              <p className="px-3">
+                Limpeza e desinfecção da unidade evaporadora (split), incluindo as bobinas e a bandeja de drenagem, para evitar a proliferação de fungos e bactérias.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <div className="" style={{ width: "8rem" }}>
+                <img
+                  className="img-fluid"
+                  src="https://cdn-icons-png.flaticon.com/512/4235/4235859.png"
+                  alt="Ícone de tubo"
+                />
+              </div>
+              <p className="px-3">
+                Limpeza da unidade condensadora, incluindo as aletas e o ventilador, para remover sujeira e detritos que possam afetar o desempenho do sistema.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <div className="" style={{ width: "8rem" }}>
+                <img
+                  className="img-fluid"
+                  src="https://cdn-icons-png.flaticon.com/512/2960/2960766.png"
+                  alt="Ícone de tubo"
+                />
+              </div>
+              <p className="px-3">
+                Limpeza do sistema de drenagem para evitar vazamentos de água e acúmulo de umidade que possam causar mofo.
+              </p>
+            </li>
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+              <div className="" style={{ width: "8rem" }}>
+                <img
+                  className="img-fluid"
+                  src="https://cdn-icons-png.flaticon.com/512/911/911409.png"
+                  alt="Ícone de tubo"
+                />
+              </div>
+              <p className="px-3">
+                Verificação geral do estado do ar-condicionado, identificando possíveis sinais de desgaste ou danos que necessitem de atenção.
+              </p>
+            </li>
+
+            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
+
+              <div className="" style={{ width: "8rem" }}>
+                <img
+                  className="img-fluid"
+                  src="https://cdn-icons-png.flaticon.com/512/7674/7674996.png"
+                  alt="Ícone de tubo"
+                />
+              </div>
+              <p className="px-3">
+                Aplicação de produtos específicos para eliminar bactérias e outros agentes nocivos que possam estar presentes no sistema.
+              </p>
+            </li>
+
           </ul>
           <h4 className="my-5 display-4 text-center">Diferenciais</h4>
           <ul className="row">
@@ -146,88 +216,63 @@ const ServicePageCleaning = () => {
               </p>
             </li>
           </ul>
-          <h4 className="my-5 display-4 text-center">Está Incluso</h4>
-          <ul className="row">
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <img
-                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-                alt=""
-              />
-              <p className="px-3">
-                Limpeza detalhada dos filtros de ar para remoção de sujeira, poeira e contaminantes.
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-            <img
-                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-                alt=""
-              />
-              <p className="px-3">
-                Inspeção visual e teste de funcionamento após a limpeza dos filtros de ar.
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <img
-                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-                alt=""
-              />
-              <p className="px-3">
-                Verificação e ajuste dos controles de temperatura e umidade do ar condicionado.
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <img
-                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-                alt=""
-              />
-              <p className="px-3">
-                Revisão geral do sistema de ventilação e funcionamento dos ventiladores do aparelho.
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <img
-                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-                alt=""
-              />
-              <p className="px-3">
-                Verificação no condensador do ar-condicionado para garantia de um melhor funcionamento
-              </p>
-            </li>
-            <li className="col-md-4 text-center mb-5 d-flex flex-column align-items-center gap-3">
-              <img
-                src="https://blog.frigelar.com.br/institucional-marcas/agyx/servico-de-manutencao-de-ar-condicionado/img/desc-servico-manutencao-icone-tubo.png"
-                alt=""
-              />
-              <p className="px-3">
-                Teste de pressão do gás refrigerante e ajustes necessários para garantir a eficiência do ar condicionado.
-              </p>
-            </li>
-          </ul>
           <h4 className="my-5 display-4 text-center">Etapas</h4>
-          <ul className="text-center">
-            <li className="d-flex align-items-center justify-content-center gap-3">
-              <PiNumberCircleOneFill className="text-color-green display-1" style={{ width: "50px" }} />
-              Revisão geral do sistema de ventilação e funcionamento de todos os componentes do aparelho
+          <ul className="text-center mx-5">
+            <li className="d-flex align-items-center mb-3 justify-content-center">
+              <span className="d-flex align-items-center justify-content-center me-3">
+                <PiNumberCircleOneFill className="text-color-green" size={35} />
+              </span>
+              <p className="mb-0 text-center">
+                Verificar funcionalidade do ar-condicionado via testes especificos.
+              </p>
             </li>
-            <li className="d-flex align-items-center justify-content-center gap-3">
-              <PiNumberCircleTwoFill className="text-color-green display-1" style={{ width: "50px" }} />
-              Desmontar a parte frontal do aparelho de ar condicionado
+            <li className="d-flex align-items-center mb-3 justify-content-center">
+              <span className="d-flex align-items-center justify-content-center me-3">
+                <PiNumberCircleTwoFill className="text-color-green" size={35} />
+              </span>
+              <p className="mb-0 text-center">
+                Proteger móveis e tudo que necessário nas áreas ao redor do aparelho.
+              </p>
             </li>
-            <li className="d-flex align-items-center justify-content-center gap-3">
-              <PiNumberCircleThreeFill className="text-color-green display-1" style={{ width: "50px" }} />
-              Fazemos a limpeza minuciosa de todo o sistema de ar condicionado, para remoção eficiente de sujeira, poeira e contaminantes
+            <li className="d-flex align-items-center mb-3 justify-content-center">
+              <span className="d-flex align-items-center justify-content-center me-3">
+                <PiNumberCircleThreeFill className="text-color-green" size={35} />
+              </span>
+              <p className="mb-0 text-center">
+                Realizar o preparo para a higienização incluindo a desmontagem do aparelho para conseguir alcançar lugares onde fungos se proliferam.
+              </p>
             </li>
-            <li className="d-flex align-items-center justify-content-center gap-3">
-              <PiNumberCircleFourFill className="text-color-green display-1" style={{ width: "50px" }} />
-              Inspeção visual e teste de funcionamento após a limpeza detalhada
+            <li className="d-flex align-items-center mb-3 justify-content-center">
+              <span className="d-flex align-items-center justify-content-center me-3">
+                <PiNumberCircleFourFill className="text-color-green" size={35} />
+              </span>
+              <p className="mb-0 text-center">
+                Limpar a unidade interna, incluindo as aletas e bobinas, com equipamento especifico para higienização eficiente do aparelho.
+              </p>
             </li>
-            <li className="d-flex align-items-center justify-content-center gap-3">
-              <PiNumberCircleFiveFill className="text-color-green display-1" style={{ width: "50px" }} />
-              Verificação e ajuste dos controles de temperatura e umidade do ar condicionado
+            <li className="d-flex align-items-center mb-3 justify-content-center">
+              <span className="d-flex align-items-center justify-content-center me-3">
+                <PiNumberCircleFiveFill className="text-color-green" size={35} />
+              </span>
+              <p className="mb-0 text-center">
+                Lavar a unidade externa com equipamento especifico e pressão correta para um higienização mais eficiente.
+              </p>
             </li>
-            <li className="d-flex align-items-center justify-content-center gap-3">
-              <PiNumberCircleSixFill className="text-color-green display-1" style={{ width: "50px" }} />
-              Teste e ajustes necessários para garantir a eficiência do ar condicionado
+            <li className="d-flex align-items-center mb-3 justify-content-center">
+              <span className="d-flex align-items-center justify-content-center me-3">
+                <PiNumberCircleSixFill className="text-color-green" size={35} />
+              </span>
+              <p className="mb-0 text-center">
+                Secar completamente todas as partes e remontar todas as peças do aparelho.
+              </p>
+            </li>
+            <li className="d-flex align-items-center mb-3 justify-content-center">
+              <span className="d-flex align-items-center justify-content-center me-3">
+                <PiNumberCircleSevenFill className="text-color-green" size={35} />
+              </span>
+              <p className="mb-0 text-center">
+                Realizar todos os testes de funcionamento para garantir a eficiencia do Ar-condicionado e da Higienização.
+              </p>
             </li>
           </ul>
         </div>
