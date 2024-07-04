@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./About.css";
-import mascote from "../assets/Mascote.png"
+import mascote from "../assets/Mascote.png";
 
 const About = () => {
   const [refText, inViewText] = useInView({
@@ -46,28 +46,31 @@ const About = () => {
               Quem somos e o que fazemos
             </h5>
             <p className="text-center text-lg-start">
-              Serviços de ar condicionado englobam uma ampla gama de atividades
-              relacionadas à instalação, manutenção, reparo e substituição de ACs.
+              A Grupo Clima Ar Condicionado é uma empresa dedicada a oferecer soluções completas em climatização, garantindo conforto e bem-estar para seus clientes. Com uma vasta experiência no mercado, nosso compromisso é com a qualidade, eficiência e satisfação dos nossos clientes.
             </p>
             <h5 className="text-center text-lg-start text-color-blue mb-4">
-              Por que escolher-nos?
+              Destaques da Grupo Clima Ar Condicionado:
             </h5>
             <ul>
               <li className="d-flex justify-content-center justify-content-lg-start align-items-center gap-2">
                 <FaCheck />
-                Compromisso com a qualidade do ar
+                Mais de 10 anos de experiência
               </li>
               <li className="d-flex justify-content-center justify-content-lg-start align-items-center gap-2">
                 <FaCheck />
-                Técnicos qualificados e experientes
+                Atendimento a mais de 5000 clientes satisfeitos
               </li>
               <li className="d-flex justify-content-center justify-content-lg-start align-items-center gap-2">
                 <FaCheck />
-                Serviços personalizados conforme suas necessidades
+                Equipe especializada e constantemente treinada
               </li>
               <li className="d-flex justify-content-center justify-content-lg-start align-items-center gap-2">
                 <FaCheck />
-                Conformidade com normas e regulamentos
+                Utilização de tecnologia de ponta
+              </li>
+              <li className="d-flex justify-content-center justify-content-lg-start align-items-center gap-2">
+                <FaCheck />
+                Compromisso com a sustentabilidade
               </li>
             </ul>
           </motion.div>

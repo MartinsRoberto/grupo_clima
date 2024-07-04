@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img1 from "../assets/blogImg/01.jpeg";
 import img2 from "../assets/blogImg/02.jpg";
-import img3 from "../assets/blogImg/03.jpeg";
+import img3 from "../assets/blogImg/03.jpg";
 import img4 from "../assets/blogImg/04.jpeg";
-import img5 from "../assets/blogImg/05.jpeg";
-import img6 from "../assets/blogImg/06.jpeg";
-import img7 from "../assets/blogImg/07.jpeg";
+import img5 from "../assets/blogImg/05.jpg";
+import img6 from "../assets/blogImg/06.jpg";
+import img7 from "../assets/blogImg/07.jpg";
 import img8 from "../assets/blogImg/08.jpeg";
-import img9 from "../assets/blogImg/09.jpeg";
+import img9 from "../assets/blogImg/09.jpg";
 
   const imageMap = {
   1: img1,

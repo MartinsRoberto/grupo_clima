@@ -39,7 +39,7 @@ const Promotion = () => {
               <p className="text-center text-lg-start">
               Prepare-se para os dias frios! Garanta um ar mais puro e saudável dentro de casa com nossa oferta especial de limpeza de ar-condicionado. Descontos exclusivos para manter seu conforto e saúde durante todo o inverno!
               </p>
-              <a href="#contact" className="btn btn-secondary d-block">
+              <a href="https://web.whatsapp.com/send?phone=551194910-9358"  className="btn btn-secondary d-block">
                 Confira Agora
               </a>
             </motion.div>
