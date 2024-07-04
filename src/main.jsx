@@ -18,7 +18,7 @@ import ServicePagePmoc from "./pages/ServicePagePmoc.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
@@ -27,21 +27,21 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/blog",
+        path: "blog",
         element: <BlogPage />,
       },
       {
-        path: "/services/maintance",
+        path: "services/maintance",
         element: <ServicePageMaintance />
       }
       ,
       {
-        path: "/services/cleaning",
+        path: "services/cleaning",
         element: <ServicePageCleaning />
       }
       ,
       {
-        path: "/services/pmoc",
+        path: "services/pmoc",
         element: <ServicePagePmoc />
       }
     ],
