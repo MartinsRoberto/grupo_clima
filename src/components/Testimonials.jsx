@@ -81,12 +81,7 @@ const Testimonials = () => {
             <TestimonialsItem
               stars={5}
               name="José Carlos Figueiredo"
-              text="Ótimo atendimento serviço executado com detalhes e seriedade, agora estou mais tranquilo com meu carro novo RECOMENDO  TOP!!!"
-            />
-            <TestimonialsItem
-              stars={5}
-              name="Farmácia Lilium"
-              text="Plenamente satisfeita com a prestação do serviço da empresa.  Atendimento extremamente rápido e super atenciosos."
+              text=""
             />
             <TestimonialsItem
               stars={4.5}

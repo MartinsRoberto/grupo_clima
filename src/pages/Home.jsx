@@ -7,6 +7,7 @@ import Team from "../components/Team";
 import IsotopeGrid from "../components/Gallery";
 import Promotion from "../components/Promotion";
 import Hero from "../components/Hero";
+import Instagram from "../components/Instagram";
 
 const Home = () => {
   useEffect(() => {
@@ -16,6 +17,7 @@ const Home = () => {
   return (
     <>
       <Hero />
+      <Instagram/>
       <Team />
       <About />
       <Services />
