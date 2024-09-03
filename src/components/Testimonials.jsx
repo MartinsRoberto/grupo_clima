@@ -80,8 +80,8 @@ const Testimonials = () => {
           >
             <TestimonialsItem
               stars={5}
-              name="José Carlos Figueiredo"
-              text=""
+              name="Farmácia Lilium"
+              text="Plenamente satisfeita com a prestação do serviço da empresa. Atendimento extremamente rápido e super atenciosos."
             />
             <TestimonialsItem
               stars={4.5}
@@ -92,6 +92,11 @@ const Testimonials = () => {
               stars={4}
               name="Marcos Marques"
               text="Empresa séria e de confiança.  Recomendo!!"
+            />
+             <TestimonialsItem
+              stars={5}
+              name="Rico Silva"
+              text="Excelente profissional, trabalho muito bem feito com qualidade e rapidez, Recomendo."
             />
           </Carousel>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import "./Team.css";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import "./Instagram.css"
+import "./Instagram.css";
 
 const Instagram = () => {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
@@ -10,8 +10,7 @@ const Instagram = () => {
     return (
         <section id="team" className="bg-light">
             <div className="">
-
-                <div className="row bg-white rounded shadow py-5 ">
+                <div className="row bg-white rounded shadow py-5">
                     <motion.h2
                         ref={ref}
                         initial={{ opacity: 0, y: 100 }}
@@ -21,16 +20,22 @@ const Instagram = () => {
                     >
                         Como fazemos a limpeza no seu Ar-Condicionado!
                     </motion.h2>
-                    <div className="row">
-                        <div className="col-md-3"></div>
-
-                        <div className="col-md-6">
-                            <div class="video embed-responsive embed-responsive-16by9 text-center w-100 ">
-                                <iframe class="embed-responsive-item w-100" src="https://www.youtube.com/embed/3WiVtp2AM6g" allowfullscreen></iframe>
+                    <div className="row justify-content-center ms-2 ms-sm-0">
+                        <div className="col-12 col-md-10 col-lg-8">
+                            <div className="video-container">
+                                <div className="embed-responsive embed-responsive-16by9">
+                                    <iframe
+                                        className="embed-responsive-item"
+                                        src="https://www.youtube.com/embed/3WiVtp2AM6g"
+                                        allowFullScreen
+                                        title="Video sobre limpeza de ar-condicionado"
+                                    ></iframe>
+                                </div>
                             </div>
                         </div>
-
                     </div>
+
+
                 </div>
             </div>
         </section>
