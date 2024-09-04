@@ -34,10 +34,10 @@ const Promotion = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <h3 className="text-center text-lg-start">
-              Promoção de inverno: Limpeza de ar-condicionado com desconto
+              Promoção de verão: Limpeza de ar-condicionado com desconto
               </h3>
               <p className="text-center text-lg-start">
-              Prepare-se para os dias frios! Garanta um ar mais puro e saudável dentro de casa com nossa oferta especial de limpeza de ar-condicionado. Descontos exclusivos para manter seu conforto e saúde durante todo o inverno!
+              Prepare-se para os dias quentes! Garanta um ar mais puro e saudável dentro de casa com nossa oferta especial de limpeza de ar-condicionado. Descontos exclusivos para manter seu conforto e saúde durante todo o verão!
               </p>
               <a href="https://web.whatsapp.com/send?phone=551194910-9358"  className="btn btn-secondary d-block">
                 Confira Agora

@@ -1,34 +1,41 @@
-
-/* Classe para tornar o vídeo responsivo */
-.embed-responsive {
+/* Garantir que o vídeo se adapte à largura da tela */
+.video-container {
     position: relative;
-    display: block;
     width: 100%;
-    padding: 0;
+    padding-bottom: 56.25%; /* Mantém a proporção 16:9 */
+    height: 0;
     overflow: hidden;
 }
 
-.embed-responsive::before {
-    content: "";
-    display: block;
-    padding-top: 56.25%; /* Proporção de 16:9 */
-}
-
-.embed-responsive .embed-responsive-item {
+.embed-responsive {
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
-    right: 0;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.embed-responsive-item {
     width: 100%;
     height: 100%;
     border: 0;
 }
 
-/* Estilo adicional para centralizar o vídeo */
-.video-container {
-    margin: 0 auto; /* Centraliza horizontalmente */
-    padding: 0 15px; /* Adiciona espaçamento nas laterais em telas pequenas */
-    max-width: 100%; /* Garante que o vídeo não ultrapasse o contêiner */
-    box-sizing: border-box; /* Garante que padding e bordas não afetem a largura */
+/* Ajustes gerais para o layout */
+#team {
+    padding: 20px; /* Espaçamento ao redor da seção */
+}
+
+.bg-light {
+    background-color: #f8f9fa; /* Cor de fundo leve */
+}
+
+.text-color-blue {
+    color: #007bff; /* Cor de texto azul */
+}
+
+.shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
