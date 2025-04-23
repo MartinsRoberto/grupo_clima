@@ -55,6 +55,7 @@ const BlogPage = () => {
             <div
               className="content-single-blog"
               dangerouslySetInnerHTML={{ __html: post.content }}
+              
             />
           </div>
         </div>
