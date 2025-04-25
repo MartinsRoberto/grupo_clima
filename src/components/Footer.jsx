@@ -111,8 +111,7 @@ const Footer = () => {
           <div className="mt-3 text-white text-center text-lg-start">
             <p className="mb-0">Segunda à sexta das 08h as 18h.</p>
             <p className="mb-0">
-              Avenida Felício Baruti, Av. Intercap, 16, Taboão da Serra - SP,
-              06757-000.
+            Rua Júlio Rebollo Perez, 215 - Jardim Peri Peri, São Paulo - SP, 05538-010
             </p>
             <p className="mb-0">
               Atendemos as regiões de São Paulo (capital), grande São Paulo e
